@@ -6,7 +6,7 @@
     "prettier"
   ],
   "rules": {
-    "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
+    "import/no-unresolved": [0, { "commonjs": true, "amd": true }],
     "import/named": 2,
     "import/namespace": 2,
     "import/default": 2,
@@ -15,14 +15,14 @@
       "error",
       {
         "groups": [
-          "index",
-          "sibling",
-          "parent",
-          "internal",
-          "external",
-          "builtin",
+          "type",
           "object",
-          "type"
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
         ],
         "pathGroups": [
           {
