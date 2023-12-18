@@ -25,6 +25,8 @@
     "prettier": "^3.1.1",
     "stylelint": "^16.0.2",
     "stylelint-config-standard": "^35.0.0",
+    "stylelint-config-tailwindcss": "^0.0.7",
+    "stylelint-order": "^6.0.4",
     "tailwindcss": "^3.3.0"
   }
 }
