@@ -1,3 +1,4 @@
+/** @type {import('next').Metadata} */
 export const rootMetadata = {
   title: {
     template: '%s | Dennis Snellenberg',
