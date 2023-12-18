@@ -1,10 +1,10 @@
 {
   "extends": [
     "next/core-web-vitals",
+    "plugin:import/recommended",
     "plugin:tailwindcss/recommended",
     "prettier"
   ],
-  "plugins": ["import"],
   "rules": {
     "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
     "import/named": 2,
