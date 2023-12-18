@@ -1,5 +1,9 @@
 {
-  "extends": ["next/core-web-vitals", "prettier"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
   "plugins": ["import"],
   "rules": {
     "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
@@ -27,7 +31,8 @@
           }
         ]
       }
-    ]
+    ],
+    "tailwindcss/no-custom-classname": "off"
   },
   "settings": {
     "import/extensions": [".js", ".jsx"],
