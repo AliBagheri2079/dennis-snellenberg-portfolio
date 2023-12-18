@@ -2,26 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base {
+  * {
+    border-color: theme(colors.border);
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  *::selection {
+    background-color: theme(colors.muted.foreground);
+    color: theme(colors.background);
+  }
+
+  body {
+    background-color: theme(colors.background);
+    color: theme(colors.foreground);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer base {
+  /* Firefox */
+  * {
+    scrollbar-color: theme(colors.secondary.foreground)
+      theme(colors.secondary.DEFAULT);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: theme(width[1.5]);
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: theme(colors.secondary.DEFAULT);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: theme(colors.secondary.foreground);
+    border-radius: theme(borderRadius.full);
+
+    &:hover {
+      background-color: theme(colors.secondary.DEFAULT);
+    }
+  }
 }
