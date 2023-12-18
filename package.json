@@ -40,6 +40,7 @@
     "postcss": "^8",
     "postcss-import": "^15.1.0",
     "postcss-preset-env": "^9.3.0",
+    "postcss-styled-syntax": "^0.5.0",
     "prettier": "^3.1.1",
     "stylelint": "^16.0.2",
     "stylelint-config-standard": "^35.0.0",
