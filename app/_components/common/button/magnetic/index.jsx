@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
 
-import { cn } from '@/app/_lib';
+import { cn } from '@/app/_utils';
 import { useMagnetic } from '@/app/_hooks';
 import { magneticVariance } from './index.variance';
 import { MagneticItem } from './index.styled';
