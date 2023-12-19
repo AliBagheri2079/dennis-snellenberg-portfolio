@@ -1,4 +1,4 @@
-import { Header, Navbar } from './_layout';
+import { Description, Header, Navbar } from './_layout';
 
 export const metadata = {
   title: 'Home | Dennis Snellenberg',
@@ -9,6 +9,9 @@ export default function Home() {
     <>
       <Navbar />
       <Header />
+      <main>
+        <Description />
+      </main>
     </>
   );
 }
