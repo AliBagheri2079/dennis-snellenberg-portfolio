@@ -1,3 +1,4 @@
+export * from './contact';
 export * from './description';
 export * from './header';
 export * from './navbar';
