@@ -1,4 +1,4 @@
-import { Description, Header, Navbar, Thumbnail } from './_layout';
+import { Description, Header, Navbar, Project, Thumbnail } from './_layout';
 
 export const metadata = {
   title: 'Home | Dennis Snellenberg',
@@ -12,6 +12,7 @@ export default function Home() {
       <main>
         <Description />
         <Thumbnail />
+        <Project />
       </main>
     </>
   );
