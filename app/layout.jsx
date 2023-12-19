@@ -5,9 +5,8 @@ import './globals.css';
 
 export const metadata = rootMetadata;
 
-/** @param {import('react').PropsWithChildren<unknown>} props */
-export default function RootLayout(props) {
-  const { children } = props;
+/** @param {import('react').PropsWithChildren<unknown>} */
+export default function RootLayout({ children }) {
   return (
     <html lang='en' dir='ltr' className={neue_montreal.variable}>
       <body className={neue_montreal.className}>

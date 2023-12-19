@@ -8,10 +8,14 @@ import { useMagnetic } from '@/app/_hooks';
 import { magneticVariance } from './index.variance';
 import { MagneticItem } from './index.styled';
 
-/** @param {import('react').ButtonHTMLAttributes<HTMLButtonElement> & { variant: 'default' | 'primary' | 'destructive' | 'secondary' | 'ghost' | 'outline'; size: 'default' | 'md' | 'lg' | 'xl';}} props */
-export function MagneticButton(props) {
-  const { children, className, variant, size, ...attributes } = props;
-
+/** @param {import('react').ButtonHTMLAttributes<HTMLButtonElement> & { variant: 'default' | 'primary' | 'destructive' | 'secondary' | 'ghost' | 'outline'; size: 'default' | 'md' | 'lg' | 'xl';}} */
+export function MagneticButton({
+  children,
+  className,
+  variant,
+  size,
+  ...props
+}) {
   /** @type {import('react').MutableRefObject<HTMLButtonElement>} */
   const elementRef = useRef(null);
   const {
@@ -34,7 +38,7 @@ export function MagneticButton(props) {
       onPointerMove={handleMagneticMove}
       onPointerOut={handleMagneticOut}
       whileHover={{ scale: 1.1 }}
-      {...attributes}
+      {...props}
     >
       <MagneticItem>{children}</MagneticItem>
     </motion.button>
