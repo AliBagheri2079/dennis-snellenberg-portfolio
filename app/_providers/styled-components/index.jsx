@@ -10,10 +10,10 @@ import {
 
 import { theme } from './theme';
 
-/**
- * @param {import('react').PropsWithChildren}
- */
-export function StyledComponentsRegistry({ children }) {
+/** @param {import('react').PropsWithChildren<unknown>} props */
+export function StyledComponentsRegistry(props) {
+  const { children } = props;
+
   // Only create stylesheet once with lazy initial state
   // x-ref: https://reactjs.org/docs/hooks-reference.html#lazy-initial-state
   const [styledComponentsStyleSheet] = useState(() => new ServerStyleSheet());
