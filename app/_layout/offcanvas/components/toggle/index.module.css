@@ -1,0 +1,44 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: theme(margin.6);
+  z-index: theme(zIndex.40);
+}
+
+.burger {
+  display: inherit;
+  width: theme(width.8);
+  height: theme(height.4);
+
+  &::after,
+  &::before {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: theme(colors.background);
+    transition: transform 300ms theme(transitionTimingFunction.in-expo);
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+}
+
+.burgerActive {
+  &::before {
+    transform: rotate(-45deg);
+    top: 50%;
+  }
+
+  &::after {
+    transform: rotate(45deg);
+    bottom: 50%;
+  }
+}
