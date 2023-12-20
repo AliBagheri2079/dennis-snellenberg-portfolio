@@ -5,3 +5,4 @@ export * from './navbar';
 export * from './offcanvas';
 export * from './project';
 export * from './thumbnail';
+export * from './transition';
