@@ -1,4 +1,4 @@
-import { InProgress } from './_components';
+import { Center } from '@/app/_components';
 
 export const metadata = {
   title: '404',
@@ -7,5 +7,11 @@ export const metadata = {
 };
 
 export default function NotFound() {
-  return <InProgress>Not Found</InProgress>;
+  return (
+    <Center className='h-screen'>
+      <div className='select-none'>
+        <h1 className='text-[max(9.5em,16vw)]'>Not Found</h1>
+      </div>
+    </Center>
+  );
 }
