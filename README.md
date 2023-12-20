@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
+runme:
+  id: 01HJ4HFM1SS58PFE429RV4RCB7
+  version: v2.0
+---
 
-## Getting Started
+# Dennis Snellenberg Portfolio
 
-First, run the development server:
+This Layout made with Next.js, Framer Motion, Gsap, Lenis, Styled Component, Lucide Icons, React Wrap Balancer, Tailwind and Postcss.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## [Demo Link](https://dennis-snellenberg-portfolio.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<video controls loop muted autoplay>
+  <source src="./public/screen-record.webm" type="video/webm" />
+  <source src="./public/screen-record.mp4" type="video/mp4" />
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+  Download the
+  <a href="./public/screen-record.webm">WEBM</a>
+  or
+  <a href="./public/screen-record.mp4">MP4</a>
+  video.
+</video>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ✨ Features
 
-## Learn More
+- Page Transition with Smooth Scrolling
+- Offcanvas Layout
+- Magnetic Button Component
+- Parallax Slider, Reveal and Fade Components
+- Multiple Usefull Hooks
+- Tailwindcss with Custom Plugin
+- Postcss with Plugins
+- Working with Styled Component Library
+- Paragraph Balancing with React Wrap Balancer
+- Classnames(cn) Helper Method with Clsx and twMerge
+- Custom Not Found Page
+- Linting with Eslint and Stylelint
+- Format with Prettier
+- Husky and Lint-staged for Pre-committing
+- Pnpm Package Manager
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 About Me
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm Ali Bagheri. Learning about 3 years on Frontend Development Position ...
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔗 Links
 
-## Deploy on Vercel
+[![portfolio](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AliBagheri2079)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alibagheri2079/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/AliBagheri2079)
