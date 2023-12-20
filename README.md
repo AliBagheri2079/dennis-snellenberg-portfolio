@@ -10,10 +10,11 @@ This Layout made with Next.js, Framer Motion, Gsap, Lenis, Styled Component, Luc
 
 ## [Demo Link](https://dennis-snellenberg-portfolio.vercel.app/)
 
-<video controls loop muted autoplay>
-  <source src="./public/screen-record.webm" type="video/webm" />
-  <source src="./public/screen-record.mp4" type="video/mp4" />
-</video>
+<img
+  src="./public/screen-record.gif"
+  loading="lazy"
+  alt="home page screenshot"
+/>
 
 ## ✨ Features
 
