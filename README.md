@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HJ4HFM1SS58PFE429RV4RCB7
-  version: v2.0
----
-
 # Dennis Snellenberg Portfolio
 
 This Layout made with Next.js, Framer Motion, Gsap, Lenis, Styled Component, Lucide Icons, React Wrap Balancer, Tailwind and Postcss.
