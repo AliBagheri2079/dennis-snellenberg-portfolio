@@ -13,12 +13,6 @@ This Layout made with Next.js, Framer Motion, Gsap, Lenis, Styled Component, Luc
 <video controls loop muted autoplay>
   <source src="./public/screen-record.webm" type="video/webm" />
   <source src="./public/screen-record.mp4" type="video/mp4" />
-
-  Download the
-  <a href="./public/screen-record.webm">WEBM</a>
-  or
-  <a href="./public/screen-record.mp4">MP4</a>
-  video.
 </video>
 
 ## ✨ Features
