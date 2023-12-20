@@ -11,7 +11,7 @@ export function useProjectSlider(element) {
 
   const transformX1 = useTransform(scrollYProgress, [0, 1], [0, -250]);
   const transformX2 = useTransform(scrollYProgress, [0, 1], [-250, 0]);
-  const transformY = useTransform(scrollYProgress, [0, 0.9], [400, 0]);
+  const transformY = useTransform(scrollYProgress, [0, 0.9], [250, 0]);
 
   return { transformX1, transformX2, transformY };
 }
