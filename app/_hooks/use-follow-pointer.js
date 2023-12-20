@@ -4,10 +4,10 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { gsap } from 'gsap';
 
 /**
- * @param {Object} pointer
- * @param {import('react').MutableRefObject<HTMLElement>} pointer.modal
- * @param {import('react').MutableRefObject<HTMLElement>} pointer.cursor
- * @param {import('react').MutableRefObject<HTMLElement>} pointer.label
+ * @param {Object} params
+ * @param {import('react').MutableRefObject<HTMLElement>} params.modal
+ * @param {import('react').MutableRefObject<HTMLElement>} params.cursor
+ * @param {import('react').MutableRefObject<HTMLElement>} params.label
  */
 export function useFollowPointer({ modal, cursor, label }) {
   const [item, setItem] = useState({ active: false, index: 0 });
@@ -27,33 +27,27 @@ export function useFollowPointer({ modal, cursor, label }) {
   /** @type {import('react').MutableRefObject<number | null>} */
   let yMoveLabel = useRef(null);
 
+  /** @type {(index: number) => void} */
   const handlePointerEnter = useCallback(
-    /** @param {number} index */
     index => setItem({ active: true, index }),
     [],
   );
 
+  /** @type {(index: number) => void} */
   const handlePointerLeave = useCallback(
-    /** @param {number} index */
     index => setItem({ active: false, index }),
     [],
   );
 
-  const moveItems = useCallback(
-    /**
-     *  @param {number} x
-     *  @param {number} y
-     */
-    (x, y) => {
-      xMoveModal.current(x);
-      yMoveModal.current(y);
-      xMoveCursor.current(x);
-      yMoveCursor.current(y);
-      xMoveLabel.current(x);
-      yMoveLabel.current(y);
-    },
-    [],
-  );
+  /** @type {(x: number, y: number) => void} */
+  const moveItems = useCallback((x, y) => {
+    xMoveModal.current(x);
+    yMoveModal.current(y);
+    xMoveCursor.current(x);
+    yMoveCursor.current(y);
+    xMoveLabel.current(x);
+    yMoveLabel.current(y);
+  }, []);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
