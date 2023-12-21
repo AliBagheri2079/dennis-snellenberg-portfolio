@@ -1,6 +1,6 @@
 # Dennis Snellenberg Portfolio
 
-This Layout made with Next.js, Framer Motion, Gsap, Lenis, Styled Component, Lucide Icons, React Wrap Balancer, Tailwind and Postcss.
+This Layout made with Next.js, Next.js Cloudinary, Framer Motion, Gsap, Lenis, Styled Component, Lucide Icons, React Wrap Balancer, Tailwind and Postcss.
 
 ## [Demo Link](https://dennis-snellenberg-portfolio.vercel.app/)
 
