@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { MagneticButton } from '@/app/_components';
 import { socialMedias } from '@/app/_data';
 import { randomId } from '@/app/_utils';
+
 import { ListTitle } from './index.styled';
 
 export function SocialInfo() {

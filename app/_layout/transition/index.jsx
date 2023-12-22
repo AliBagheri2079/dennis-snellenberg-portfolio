@@ -1,10 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { usePathname } from 'next/navigation';
+
 import { AnimatePresence } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 
 import { useLenis, useTimeOut } from '@/app/_hooks';
+
 import { Preloader } from './preloader';
 
 /** @param {import('react').PropsWithChildren<unknown>} */

@@ -1,12 +1,14 @@
 'use client';
 
 import { useState } from 'react';
+
 import { motion } from 'framer-motion';
 import { Dot } from 'lucide-react';
 
 import { Center } from '@/app/_components';
 import { preloaderWords } from '@/app/_data';
 import { useDimensions, useTimeOut } from '@/app/_hooks';
+
 import { fade, slideUp } from './variants';
 
 const MotionComponent = motion(Center);

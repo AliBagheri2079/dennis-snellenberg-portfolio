@@ -1,7 +1,7 @@
-import { Providers } from './_providers';
-import { Offcanvas } from './_layout';
 import { rootMetadata } from './_config';
 import { neue_montreal } from './_fonts';
+import { Offcanvas } from './_layout';
+import { Providers } from './_providers';
 import './globals.css';
 
 export const metadata = rootMetadata;

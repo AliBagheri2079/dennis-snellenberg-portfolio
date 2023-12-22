@@ -1,12 +1,13 @@
 'use client';
 
 import { forwardRef } from 'react';
+
 import { motion } from 'framer-motion';
 import { CldImage } from 'next-cloudinary';
 
-import { randomId } from '@/app/_utils';
-import { thumbnailOptions } from '@/app/_data';
 import { Center } from '@/app/_components';
+import { thumbnailOptions } from '@/app/_data';
+import { randomId } from '@/app/_utils';
 
 const MotionComponent = motion(Center);
 

@@ -1,11 +1,12 @@
 'use client';
 
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { ArrowDownLeft } from 'lucide-react';
+import Link from 'next/link';
 import { CldImage } from 'next-cloudinary';
 
 import { MagneticButton } from '@/app/_components';
+
 import { Container, ImageWrapper, MainTitle, Row } from './index.styled';
 
 /**

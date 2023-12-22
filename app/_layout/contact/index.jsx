@@ -1,9 +1,11 @@
 'use client';
 
 import { useRef } from 'react';
+
 import { motion } from 'framer-motion';
 
 import { useContactSlider } from '@/app/_hooks';
+
 import { SocialInfo, UserDetails } from './components';
 
 export function Contact() {

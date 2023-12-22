@@ -1,5 +1,5 @@
-import { Transition } from '@/app/_layout';
 import { InProgress } from '@/app/_components';
+import { Transition } from '@/app/_layout';
 
 export const metadata = {
   title: 'Contact',

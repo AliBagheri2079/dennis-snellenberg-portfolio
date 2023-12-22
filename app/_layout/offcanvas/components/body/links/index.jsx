@@ -1,12 +1,14 @@
 'use client';
 
-import Link from 'next/link';
 import { useState } from 'react';
-import { usePathname } from 'next/navigation';
+
 import { motion } from 'framer-motion';
 import { Dot } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 import { navItems } from '@/app/_data';
+
 import { scale, slideOut } from './variants';
 
 export function OffcanvasLinks() {

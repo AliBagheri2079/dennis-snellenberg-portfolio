@@ -9,6 +9,7 @@ import {
   ParallaxFade,
   ParallaxReveal,
 } from '@/app/_components';
+
 import { Title, Wrapper } from './index.styled';
 
 const phrase =

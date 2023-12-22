@@ -1,6 +1,6 @@
 'use client';
 
-import { useScroll, useMotionValueEvent } from 'framer-motion';
+import { useMotionValueEvent, useScroll } from 'framer-motion';
 
 /**
  * @param {Object} params

@@ -1,11 +1,13 @@
 'use client';
 
 import { useRef } from 'react';
+
 import { motion } from 'framer-motion';
 
-import { useProjectSlider } from '@/app/_hooks';
 import { projectOptions } from '@/app/_data';
+import { useProjectSlider } from '@/app/_hooks';
 import { randomId } from '@/app/_utils';
+
 import { ProjectSlider } from './slider';
 
 export function Project() {

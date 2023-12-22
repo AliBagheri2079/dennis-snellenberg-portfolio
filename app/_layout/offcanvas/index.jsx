@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { usePathname } from 'next/navigation';
+
 import { AnimatePresence } from 'framer-motion';
+import { usePathname } from 'next/navigation';
 
 import { OffcanvasBody, OffcanvasToggle } from './components';
 

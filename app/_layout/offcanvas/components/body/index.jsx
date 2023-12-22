@@ -3,9 +3,10 @@
 import { motion } from 'framer-motion';
 
 import { FixedOverlay } from '@/app/_components';
+
 import { OffcanvasBackdrop } from './back-drop';
-import { OffcanvasLinks } from './links';
 import { OffcanvasFooter } from './footer';
+import { OffcanvasLinks } from './links';
 import { slideLeft } from './variants';
 
 const MotionComponent = motion(FixedOverlay);

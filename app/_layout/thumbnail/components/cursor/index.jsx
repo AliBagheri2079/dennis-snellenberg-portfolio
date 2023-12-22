@@ -1,7 +1,9 @@
 'use client';
 
 import { forwardRef } from 'react';
+
 import { motion } from 'framer-motion';
+
 import { CursorShape } from './index.styled';
 
 const MotionComponent = motion(CursorShape);

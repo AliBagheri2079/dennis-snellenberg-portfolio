@@ -1,11 +1,11 @@
 'use client';
 
-import Link from 'next/link';
 import { Dot } from 'lucide-react';
+import Link from 'next/link';
 
 import { Center, MagneticButton } from '@/app/_components';
-import { randomId } from '@/app/_utils';
 import { navItems } from '@/app/_data';
+import { randomId } from '@/app/_utils';
 
 export function NavbarList() {
   const items = navItems.slice(1).map(({ href, title }) => {

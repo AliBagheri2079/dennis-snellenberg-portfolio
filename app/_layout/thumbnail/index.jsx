@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 
 import { useFollowPointer } from '@/app/_hooks';
+
 import {
   ThumbnailAction,
   ThumbnailCursorCircle,

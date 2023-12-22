@@ -1,11 +1,13 @@
 'use client';
 
 import { useRef } from 'react';
+
 import { motion } from 'framer-motion';
 
-import { cn } from '@/app/_utils';
-import { useOffcanvasToggle } from '@/app/_hooks';
 import { MagneticButton } from '@/app/_components';
+import { useOffcanvasToggle } from '@/app/_hooks';
+import { cn } from '@/app/_utils';
+
 import classes from './index.module.css';
 
 /**
