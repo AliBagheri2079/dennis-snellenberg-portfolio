@@ -4,6 +4,7 @@ import { Offcanvas } from './_layout';
 import { Providers } from './_providers';
 import './globals.css';
 
+/** @type {import('next').Metadata} */
 export const metadata = rootMetadata;
 
 /** @param {import('react').PropsWithChildren<unknown>} */

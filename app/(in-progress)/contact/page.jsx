@@ -1,6 +1,7 @@
 import { InProgress } from '@/app/_components';
 import { Transition } from '@/app/_layout';
 
+/** @type {import('next').Metadata} */
 export const metadata = {
   title: 'Contact',
   description:

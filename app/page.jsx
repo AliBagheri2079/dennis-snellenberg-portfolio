@@ -8,6 +8,7 @@ import {
   Transition,
 } from './_layout';
 
+/** @type {import('next').Metadata} */
 export const metadata = {
   title: 'Home | Dennis Snellenberg',
   description:

@@ -1,5 +1,6 @@
 import { Center } from '@/app/_components';
 
+/** @type {import('next').Metadata} */
 export const metadata = {
   title: '404',
   description:
