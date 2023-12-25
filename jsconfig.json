@@ -8,7 +8,7 @@
       "@/hooks": ["./app/_hooks/index.js"],
       "@/layout": ["./app/_layout/index.js"],
       "@/lib": ["./app/_lib/index.js"],
-      "@/providers": ["./app/_providers/index.js"],
+      "@/providers": ["./app/_providers/index.jsx"],
       "@/utils": ["./app/_utils/index.js"],
       "@/*": ["./*"]
     }
