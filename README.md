@@ -24,13 +24,12 @@ An Portfolio site template, implemented with [Next.js](https://nextjs.org/) and 
 
 <p>
 
-[Technologies](#technologies) •
-[Demo](#demo) •
-[Features](#features) •
-[Pages](#pages) •
-[Getting started](#getting-started) •
-[Contributing](#contributing) •
-[Contact Me](#contact-me)
+[Technologies](#-technologies) •
+[Demo](#-demo) •
+[Features](#-features) •
+[Pages](#-pages) •
+[Contributing](#-contributing) •
+[Links](#-links)
 
 </p>
 
