@@ -6,7 +6,7 @@ import {
   Project,
   Thumbnail,
   Transition,
-} from './_layout';
+} from '@/layout';
 
 /** @type {import('next').Metadata} */
 export const metadata = {

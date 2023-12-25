@@ -3,9 +3,9 @@
 import { Dot } from 'lucide-react';
 import Link from 'next/link';
 
-import { Center, MagneticButton } from '@/app/_components';
-import { navItems } from '@/app/_data';
-import { randomId } from '@/app/_utils';
+import { Center, MagneticButton } from '@/components';
+import { navItems } from '@/data';
+import { randomId } from '@/utils';
 
 export function NavbarList() {
   const items = navItems.slice(1).map(({ href, title }) => {

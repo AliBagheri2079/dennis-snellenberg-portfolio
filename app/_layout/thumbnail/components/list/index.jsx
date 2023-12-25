@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 
-import { thumbnailOptions } from '@/app/_data';
+import { thumbnailOptions } from '@/data';
 
 /**
  * @param {Object} props

@@ -2,7 +2,7 @@
 
 import { CldImage, CldVideoPlayer } from 'next-cloudinary';
 
-import { Center } from '@/app/_components';
+import { Center } from '@/components';
 
 /**
  * @param {Object} props

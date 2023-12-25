@@ -4,8 +4,8 @@ import { Fragment } from 'react';
 
 import { motion } from 'framer-motion';
 
-import { useParallaxSlider } from '@/app/_hooks';
-import { randomId } from '@/app/_utils';
+import { useParallaxSlider } from '@/hooks';
+import { randomId } from '@/utils';
 
 /** @param {import('react').PropsWithChildren<unknown> & {repeat: number; baseVelocity: number;}} */
 export function ParallaxSlider({ children, repeat = 2, baseVelocity }) {

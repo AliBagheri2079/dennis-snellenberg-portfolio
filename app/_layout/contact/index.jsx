@@ -4,7 +4,7 @@ import { useRef } from 'react';
 
 import { motion } from 'framer-motion';
 
-import { useContactSlider } from '@/app/_hooks';
+import { useContactSlider } from '@/hooks';
 
 import { SocialInfo, UserDetails } from './components';
 

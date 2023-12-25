@@ -2,7 +2,7 @@
 
 import { styled } from 'styled-components';
 
-import { Center } from '@/app/_components';
+import { Center } from '@/components';
 
 export const CursorShape = styled(Center)`
   color: ${({ theme }) => theme?.colors?.background};

@@ -5,9 +5,9 @@ import { forwardRef } from 'react';
 import { motion } from 'framer-motion';
 import { CldImage } from 'next-cloudinary';
 
-import { Center } from '@/app/_components';
-import { thumbnailOptions } from '@/app/_data';
-import { randomId } from '@/app/_utils';
+import { Center } from '@/components';
+import { thumbnailOptions } from '@/data';
+import { randomId } from '@/utils';
 
 const MotionComponent = motion(Center);
 

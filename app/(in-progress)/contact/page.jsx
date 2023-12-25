@@ -1,5 +1,5 @@
-import { InProgress } from '@/app/_components';
-import { Transition } from '@/app/_layout';
+import { InProgress } from '@/components';
+import { Transition } from '@/layout';
 
 /** @type {import('next').Metadata} */
 export const metadata = {

@@ -4,9 +4,9 @@ import { useRef } from 'react';
 
 import { motion } from 'framer-motion';
 
-import { projectOptions } from '@/app/_data';
-import { useProjectSlider } from '@/app/_hooks';
-import { randomId } from '@/app/_utils';
+import { projectOptions } from '@/data';
+import { useProjectSlider } from '@/hooks';
+import { randomId } from '@/utils';
 
 import { ProjectSlider } from './slider';
 

@@ -1,7 +1,7 @@
-import { rootMetadata } from './_config';
-import { neue_montreal } from './_fonts';
-import { Offcanvas } from './_layout';
-import { Providers } from './_providers';
+import { rootMetadata } from '@/config';
+import { neue_montreal } from '@/fonts';
+import { Offcanvas } from '@/layout';
+import { Providers } from '@/providers';
 import './globals.css';
 
 /** @type {import('next').Metadata} */

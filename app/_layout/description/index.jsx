@@ -4,11 +4,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Balancer from 'react-wrap-balancer';
 
-import {
-  MagneticButton,
-  ParallaxFade,
-  ParallaxReveal,
-} from '@/app/_components';
+import { MagneticButton, ParallaxFade, ParallaxReveal } from '@/components';
 
 import { Title, Wrapper } from './index.styled';
 

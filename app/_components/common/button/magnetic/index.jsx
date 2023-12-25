@@ -4,8 +4,8 @@ import { useRef } from 'react';
 
 import { motion } from 'framer-motion';
 
-import { useMagnetic } from '@/app/_hooks';
-import { cn } from '@/app/_utils';
+import { useMagnetic } from '@/hooks';
+import { cn } from '@/utils';
 
 import { MagneticItem } from './index.styled';
 import { magneticVariance } from './index.variance';

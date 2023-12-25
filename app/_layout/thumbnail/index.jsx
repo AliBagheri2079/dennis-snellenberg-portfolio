@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 
-import { useFollowPointer } from '@/app/_hooks';
+import { useFollowPointer } from '@/hooks';
 
 import {
   ThumbnailAction,

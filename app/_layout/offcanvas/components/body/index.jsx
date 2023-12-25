@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 
-import { FixedOverlay } from '@/app/_components';
+import { FixedOverlay } from '@/components';
 
 import { OffcanvasBackdrop } from './back-drop';
 import { OffcanvasFooter } from './footer';

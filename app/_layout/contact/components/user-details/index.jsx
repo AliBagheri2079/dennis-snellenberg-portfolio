@@ -5,7 +5,7 @@ import { ArrowDownLeft } from 'lucide-react';
 import Link from 'next/link';
 import { CldImage } from 'next-cloudinary';
 
-import { MagneticButton } from '@/app/_components';
+import { MagneticButton } from '@/components';
 
 import { Container, ImageWrapper, MainTitle, Row } from './index.styled';
 

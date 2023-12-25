@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
-import { useLenis, useTimeOut } from '@/app/_hooks';
+import { useLenis, useTimeOut } from '@/hooks';
 
 import { Preloader } from './preloader';
 

@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 
-import { MagneticButton } from '@/app/_components';
-import { socialMedias } from '@/app/_data';
-import { randomId } from '@/app/_utils';
+import { MagneticButton } from '@/components';
+import { socialMedias } from '@/data';
+import { randomId } from '@/utils';
 
 import { ListTitle } from './index.styled';
 
