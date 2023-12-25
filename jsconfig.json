@@ -1,6 +1,15 @@
 {
   "compilerOptions": {
     "paths": {
+      "@/components": ["./app/_components/index.js"],
+      "@/config": ["./app/_config/index.js"],
+      "@/data": ["./app/_data/index.js"],
+      "@/fonts": ["./app/_fonts/index.js"],
+      "@/hooks": ["./app/_hooks/index.js"],
+      "@/layout": ["./app/_layout/index.js"],
+      "@/lib": ["./app/_lib/index.js"],
+      "@/providers": ["./app/_providers/index.js"],
+      "@/utils": ["./app/_utils/index.js"],
       "@/*": ["./*"]
     }
   }
